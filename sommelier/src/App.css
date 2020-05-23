@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.wineCard {
+  display: inline;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  float: left;
+  margin: 2%;
+  padding: 1%;
+  outline: #3B0B0B dotted thick;
+  transition: 0.75s;
+  opacity: 1;
+  float: left;
+  width: 20.33%;
+  padding: 5px;
+  width: 400px;
+  height: 1000px;
+  
+}
+
+.image {
+  height:500px;
+  width:300px;
+}
