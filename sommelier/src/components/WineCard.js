@@ -22,10 +22,10 @@ export default class WineCard extends Component {
             <div className = "wineCard">
                 <img className = "image" src ={img} />
                 <h3>Name:{name}</h3>
-                <h3>Year:{year}</h3>
-                <h3>Type:{category}</h3>
-                <h3>ABV:{ABV}</h3>
-                <h3>Description:{description}</h3>
+                <p>Year:{year}</p>
+                <p>Type:{category}</p>
+                <p>ABV:{ABV}</p>
+                <p>Description:{description}</p>
                 {/* <iframe src={video}></iframe>  */}
              </div>
     )
