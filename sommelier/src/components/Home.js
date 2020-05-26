@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import WineContainer from './WineContainer'
 import SearchBar from './SearchBar'
-import Favorite from './Favorite'
 
 import Jumbotron from 'react-bootstrap/Jumbotron'
 
@@ -49,7 +48,7 @@ export default class Home extends Component {
                 </div>
              <WineContainer wines={this.state.wines} />
              <SearchBar filterWines={this.filterWines} />
-             <Favorite favoriteWines={this.state.favoriteWines} />
+            
             </div>
         )
     }

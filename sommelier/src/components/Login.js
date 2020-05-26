@@ -28,6 +28,7 @@ handleSubmit = (event) => {
     event.preventDefault()
     if (this.state.password === this.state.confirmation){
     this.props.changeView('home')
+    this.props.changeName(this.state.name)
     } else {
         alert("Incorrect Password")
     }
@@ -36,7 +37,7 @@ handleSubmit = (event) => {
 render() {
     return (
        
-           <form className='vertical-flex'>
+           <form className='horizontal-flex'>
             <h1>Create a Sommelier Account</h1>
             <input name="name" value={this.state.name} onChange={this.nameChange} placeholder="Name" />
             <input name="email" value={this.state.email} onChange={this.emailChange} placeholder="Email" />

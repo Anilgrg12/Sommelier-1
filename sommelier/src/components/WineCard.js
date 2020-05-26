@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Favorite from './Favorite'
+
+
 export default class WineCard extends Component {
     state = {
         clicked: false
@@ -35,8 +36,7 @@ export default class WineCard extends Component {
      return  (
         <div onClick={this.toggleClicked}>
            {this.state.clicked? this.renderFull() : this.renderShort()}
-               <Favorite />
-           </div>
+        </div>
         )
   }
 }
